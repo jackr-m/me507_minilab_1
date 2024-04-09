@@ -21,7 +21,7 @@ strip = true
 
 [profile.dev]
 lto = "thin"
-opt-level = "s"
+opt-level = 0
 incremental = true
 # note: debug = true is okay - debuginfo isn't flashed to the device!
 debug = true
