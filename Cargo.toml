@@ -25,6 +25,7 @@ opt-level = 0
 incremental = true
 # note: debug = true is okay - debuginfo isn't flashed to the device!
 debug = true
+panic = "abort"
 
 [dependencies]
 defmt = "0.3"
